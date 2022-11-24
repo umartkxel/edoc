@@ -1,0 +1,98 @@
+.sidebar_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 16px;
+}
+
+.sidebar_header-container {
+  display: grid;
+  grid-template-columns: 1fr 1.5rem;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.sidebar_icon {
+  color: #2973a1 !important;
+  cursor: pointer;
+}
+
+.sidebar_header-icon-container {
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.indexes_conatiner {
+  margin: 16px auto 0;
+}
+
+.indexes_username {
+  text-align: center;
+  border: 2px solid white;
+  position: relative;
+  font-weight: normal;
+}
+
+.indexes_delete_icon {
+  top: 3px;
+  right: 8px;
+  color: #2973a1 !important;
+  cursor: pointer;
+  z-index: 1;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.indexes_input_label {
+  font-size: 12px;
+  padding: 8px !important;
+}
+
+.indexes_input {
+  font-size: 12px;
+  padding: 12px 8px 8px !important;
+}
+
+.form_input_text {
+  height: auto;
+}
+
+.form-floating .form-control {
+  border-radius: 0;
+  height: auto;
+}
+
+.form-floating .form-select {
+  border-radius: 0;
+
+  padding: 12px 8px 8px !important;
+  height: auto;
+}
+
+.indexes_item {
+  margin-bottom: 0.5rem;
+  background-color: #57add0;
+  padding: 12px;
+}
+
+.update_button {
+  background-color: #2973a1;
+  color: white;
+  border: 2px solid white;
+}
